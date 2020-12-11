@@ -36,3 +36,23 @@
 .blog-img {
   max-width: 50%;
 }
+
+.img-center {
+  float: center;
+  max-width: 75%;
+}
+
+.img-caption {
+  padding: 0;
+  margin: 1rem auto 5rem auto;
+  text-align: center;
+}
+
+.blog-post > img {
+  display: flex;
+}
+
+.blog-post > p.img-cpation {
+  display: flex;
+  text-align: center;
+}
